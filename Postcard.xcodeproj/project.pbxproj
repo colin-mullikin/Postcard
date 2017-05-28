@@ -12,6 +12,8 @@
 		8887B7031EDA64C100135C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8887B7011EDA64C100135C94 /* Main.storyboard */; };
 		8887B7051EDA64C100135C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8887B7041EDA64C100135C94 /* Assets.xcassets */; };
 		8887B7081EDA64C100135C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8887B7061EDA64C100135C94 /* LaunchScreen.storyboard */; };
+		8887B7111EDA6A4600135C94 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8887B7101EDA6A4600135C94 /* SagradaFamilia.jpeg */; };
+		8887B7131EDA6C9200135C94 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8887B7121EDA6C9200135C94 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8887B7041EDA64C100135C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8887B7071EDA64C100135C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8887B7091EDA64C100135C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8887B7101EDA6A4600135C94 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		8887B7121EDA6C9200135C94 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		8887B6FC1EDA64C100135C94 /* Postcard */ = {
 			isa = PBXGroup;
 			children = (
+				8887B70F1EDA6A1200135C94 /* Supporting Files */,
 				8887B6FD1EDA64C100135C94 /* AppDelegate.swift */,
 				8887B6FF1EDA64C100135C94 /* ViewController.swift */,
 				8887B7011EDA64C100135C94 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				8887B7091EDA64C100135C94 /* Info.plist */,
 			);
 			path = Postcard;
+			sourceTree = "<group>";
+		};
+		8887B70F1EDA6A1200135C94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8887B7121EDA6C9200135C94 /* AlbertEinsteinStamp.jpg */,
+				8887B7101EDA6A4600135C94 /* SagradaFamilia.jpeg */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8887B7081EDA64C100135C94 /* LaunchScreen.storyboard in Resources */,
+				8887B7111EDA6A4600135C94 /* SagradaFamilia.jpeg in Resources */,
+				8887B7131EDA6C9200135C94 /* AlbertEinsteinStamp.jpg in Resources */,
 				8887B7051EDA64C100135C94 /* Assets.xcassets in Resources */,
 				8887B7031EDA64C100135C94 /* Main.storyboard in Resources */,
 			);
